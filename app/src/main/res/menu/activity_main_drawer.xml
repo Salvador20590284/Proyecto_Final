@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/imagen"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tomar Foto y Mandar" />
+        <item
+            android:id="@+id/escaner"
+            android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+            android:title="Escaner QR" />
+        <item
+            android:id="@+id/generadorQR"
+            android:icon="@drawable/ic_baseline_qr_code_24"
+            android:title="Generador QR (promos)" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552012707728",
+    "project_id": "enrutame-617b7",
+    "storage_bucket": "enrutame-617b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552012707728:android:f72458c570c7ed0df5e515",
+        "android_client_info": {
+          "package_name": "com.example.enrutame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552012707728-hlk6ne4k0kb0ke6op86dqd4uuqacuptj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtXtjrHOQpYlCsp40xag-gEFJroextMyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552012707728-hlk6ne4k0kb0ke6op86dqd4uuqacuptj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

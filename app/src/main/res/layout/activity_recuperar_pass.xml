@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".recuperarPassActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:gravity="top"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:scrollbarSize="500dp"
+        app:srcCompat="@drawable/logomashg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ingresa tu correo"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Recupera tu contraseña"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/et_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Colocar Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn_recuperar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D50000"
+        android:text="Recuperar Contraseña"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
